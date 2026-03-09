@@ -218,7 +218,7 @@ public class Consola {
         } while (opcion != 0);
     }
 
-    // ==================== BOOK METHODS ====================
+    // BOOK METHODS
 
     /**
      * Adds a new book to the library.
@@ -267,7 +267,7 @@ public class Consola {
         }
     }
 
-    // ==================== USER METHODS ====================
+    //  USER METHODS
 
     /**
      * Adds a new user.
@@ -316,7 +316,7 @@ public class Consola {
         }
     }
 
-    // ==================== LOAN METHODS ====================
+    //  LOAN METHODS
 
     /**
      * Loans a book to a user.
@@ -460,7 +460,7 @@ public class Consola {
         }
     }
 
-    // ==================== SEARCH METHODS ====================
+    // SEARCH METHODS
 
     /**
      * Searches books by title.
@@ -524,7 +524,7 @@ public class Consola {
         }
     }
 
-    // ==================== HELPER METHODS ====================
+    // HELPER METHODS 
 
     /**
      * Reads an integer from console.
