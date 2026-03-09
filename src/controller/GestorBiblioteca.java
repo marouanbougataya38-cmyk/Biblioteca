@@ -23,7 +23,7 @@ public class GestorBiblioteca {
         this.controladorPrestamo = new ControladorPrestamo(controladorLibro, controladorUsuario);
     }
 
-    // ==================== BOOK METHODS ====================
+    //  BOOK METHODS 
 
     /**
      * Adds a new book to the library.
@@ -67,7 +67,7 @@ public class GestorBiblioteca {
         return controladorLibro.getLibrosDisponibles();
     }
 
-    // ==================== USER METHODS ====================
+    // USER METHODS
 
     /**
      * Adds a new user.
@@ -90,7 +90,7 @@ public class GestorBiblioteca {
         return controladorUsuario.getTodosLosUsuarios();
     }
 
-    // ==================== LOAN METHODS ====================
+    // LOAN METHODS 
 
     /**
      * Loans a book to a user.
@@ -153,7 +153,7 @@ public class GestorBiblioteca {
         return controladorPrestamo.getPrestamosVencidos();
     }
 
-    // ==================== SUMMARY METHODS ====================
+    // SUMMARY METHODS
 
     /**
      * Prints a summary of the library.
@@ -248,7 +248,7 @@ public class GestorBiblioteca {
         System.out.println("========================================\n");
     }
 
-    // ==================== GETTERS ====================
+    // GETTERS
 
     public ControladorLibro getControladorLibro() {
         return controladorLibro;
